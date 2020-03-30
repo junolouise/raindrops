@@ -1,6 +1,8 @@
 class Raindrops
 
   def self.convert(drop)
-    "1"
+    if drop == 1
+      "1"
+    end
   end
 end

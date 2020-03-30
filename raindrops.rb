@@ -5,6 +5,8 @@ class Raindrops
       "Pling"
     elsif drop % 5 == 0
       "Plang"
+    elsif drop % 7 == 0
+      "Plong"
     else drop == 1
       "1"
     end

@@ -3,6 +3,8 @@ class Raindrops
   def self.convert(drop)
     if (drop % 3 == 0) && (drop % 5 == 0)
       "PlingPlang"
+    elsif (drop % 3 == 0) && (drop % 7 == 0)
+      "PlingPlong"
     elsif drop % 3 == 0
       "Pling"
     elsif drop % 5 == 0
